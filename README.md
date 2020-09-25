@@ -14,4 +14,8 @@ start server
 ./index.sh
 ```
 
-In your browser or postman, `http://localhost:8080/api/foo/something`
+## Using Docker
+```
+docker-compose up
+```
+In your browser or postman, `http://localhost:22080/api/foo/something`

@@ -1,0 +1,11 @@
+
+version: "3.1"
+
+services:
+
+  # The REST bash container runs on port 22080
+  # access using http://localhost:22080/api/foo/blah
+  restbash:
+    build: .
+    ports:
+    - 22080:8080
